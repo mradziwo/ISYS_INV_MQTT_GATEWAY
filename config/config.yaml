@@ -1,0 +1,14 @@
+MQTT: 
+  IP: "192.168.20.249"
+  Port: 1883
+  KeepAlive: 60
+  User: ""
+  Password: ""
+  rootPath: "WIATA"
+Device:
+  IP: "192.168.20.119"
+  Port: 4002
+  SlaveAddress: 1
+  Name: "FALOWNIK"
+Settings:
+  ScanRate: 1
