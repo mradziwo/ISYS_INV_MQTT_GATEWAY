@@ -296,7 +296,7 @@ if __name__ == "__main__":
 
     while True:
         state=controller.getState()
-        (rc, mid)=client.publish(Topics["State"], json.dumps(state))
+        (rc, mid)=client.publish(Topics["State"], json.dumps(state),qos=2)
         print("RC:"+str(rc))
         print("mid:"+str(mid))
         if rc == 4:
